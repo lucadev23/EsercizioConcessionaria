@@ -10,7 +10,7 @@ public class Concessionaria {
     private int dim;
     private Veicolo[] lista;
     
-    public void Concessionaria(String nome, int dim){
+    public Concessionaria(String nome, int dim){
         this.nome=nome;
         if(dim<0) this.dim=0;
         else this.dim=dim;
